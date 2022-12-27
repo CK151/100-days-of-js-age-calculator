@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <script src="https://kit.fontawesome.com/1935d064dd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <section class="main">
+        <div class="container">
+            <h1>Age Calculator</h1>
+
+            <form action="" autocomplete="off">
+                <div class="name">
+                    <label for="">Name:</label>
+                <input type="text" placeholder="Anderson" id="username">
+                </div>
+                <div class="birth-date">
+                    <label for="">Date of birth:</label>
+                    <input type="date" id="dob">
+                </div>
+
+                <button class="btn">Submit</button>
+            </form>
+
+            <div class="result">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <p>Name: <span class="u-name"></span></p>
+                    </li>
+
+                    <li class="list-group-item">
+                        <p>Age:
+                            <span class="age-year">0 Years</span>
+
+                            <span class="age-month">0 Month</span>
+
+                            <span class="age-day">0 Days</span>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+  
+    
+    <script src="script.js"></script>
+</body>
+</html>
